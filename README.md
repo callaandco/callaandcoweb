@@ -6,7 +6,8 @@ A one-page static website for Calla & Co. weddings and ceremonies. It is a singl
 
 Open `index.html` in a text editor and replace everything in square brackets: names, bios, prices, contact details, photos and business registration details.
 
-- **Photos:** put image files in an `images/` folder and replace each `[PHOTO]` box with `<img src="images/your-photo.jpg" alt="Describe the photo">`.
+- **Photos:** the `images/` folder holds placeholders for the two team photos (`planner.svg` and `partner.svg`). Add your own photos as `planner.jpg` and `partner.jpg` in the same folder, then change `images/planner.svg` to `images/planner.jpg` (and the same for the partner) in `index.html`, and update the `alt` text.
+- **Domain:** the `CNAME` file tells GitHub Pages to serve the site at callaandco.uk. Delete it if you decide to use a different domain.
 - **Enquiry form:** replace `[FORM SERVICE URL]` with the address from a form service such as Formspree, so enquiries reach your email.
 
 ## Publish it free with GitHub Pages

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="800" height="640">
+<title>Placeholder for the celebrant's photo</title>
+<rect width="800" height="640" fill="#E9E0D2"/>
+<g transform="translate(340 200) scale(0.8)" fill="none" stroke="#24382F" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M64 166 C64 140 62 118 58 98"/>
+<path d="M58 98 C28 88 22 48 44 14 C58 40 84 50 90 74 C94 90 80 98 58 98 Z"/>
+<path d="M44 14 C50 50 64 72 80 86"/>
+</g>
+<text x="400" y="420" text-anchor="middle" font-family="Jost, sans-serif" font-size="26" letter-spacing="6" fill="#5C6B62">REPLACE WITH YOUR PHOTO</text>
+</svg>
