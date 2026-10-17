@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calla &amp; Co. | Weddings and Ceremonies</title>
+<meta name="description" content="Wedding planning and celebrant-led ceremonies. One small team to plan your day, write your ceremony and keep everything running smoothly.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--green:#24382F;--ivory:#F7F3EC;--sand:#E9E0D2;--line:#E3DACB;--gold:#8A6A38;--gold-light:#C9A66B}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ivory);color:var(--green);font-family:'Jost',sans-serif;font-size:18px;line-height:1.6}
+a{color:var(--green)}a:hover{color:var(--gold)}
+h1,h2,h3{font-family:'Cormorant Garamond',serif;margin:0}
+h2{font-weight:500;font-size:clamp(36px,5vw,52px);line-height:1.1}
+h3{font-weight:600}
+p{margin:0}
+.wrap{width:100%;max-width:1180px;margin:0 auto;padding:96px 24px}
+.eyebrow{font-weight:500;font-size:16px;letter-spacing:.32em;color:var(--gold)}
+header{border-bottom:1px solid var(--line)}
+.nav{max-width:1180px;margin:0 auto;padding:20px 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand span{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:30px;line-height:1}
+nav{display:flex;flex-wrap:wrap;gap:28px;align-items:center}
+nav a{text-decoration:none;font-weight:500}
+.btn{display:inline-block;text-decoration:none;font-weight:500;background:var(--green);color:var(--ivory);padding:16px 32px;border-radius:999px;border:1px solid var(--green);cursor:pointer;font-family:inherit;font-size:18px}
+.btn:hover{color:var(--ivory);opacity:.9}
+.btn.ghost{background:transparent;color:var(--green)}
+.btn.ghost:hover{color:var(--green);background:var(--sand)}
+nav .btn{padding:12px 24px;font-size:18px;color:var(--ivory)}
+.hero{display:flex;flex-wrap:wrap;align-items:center;gap:64px}
+.hero-text{flex:1 1 460px;display:flex;flex-direction:column;gap:28px}
+.hero h1{font-weight:500;font-size:clamp(44px,7vw,76px);line-height:1.02}
+.hero p{max-width:520px;font-size:20px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:16px}
+.hero-art{flex:1 1 340px;min-height:480px;background:var(--sand);border-radius:240px 240px 24px 24px;display:flex;align-items:center;justify-content:center}
+.band{background:#fff}
+.intro{display:flex;flex-direction:column;gap:12px;max-width:640px;margin-bottom:48px}
+.cards{display:flex;flex-wrap:wrap;gap:24px}
+.card{flex:1 1 260px;border:1px solid var(--line);border-radius:16px;padding:32px;display:flex;flex-direction:column;gap:14px;background:var(--ivory)}
+.card h3{font-size:30px}
+.price{font-weight:500;color:var(--gold)}
+.team{display:flex;flex-wrap:wrap;gap:48px;margin-top:48px}
+.person{flex:1 1 380px;display:flex;flex-direction:column;gap:16px}
+.photo{height:320px;background:var(--sand);border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:16px;letter-spacing:.2em;color:#5C6B62;overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:cover}
+.person h3{font-size:34px}
+.role{font-weight:500;letter-spacing:.14em;font-size:15px;color:var(--gold)}
+.dark{background:var(--green);color:var(--ivory)}
+.steps{display:flex;flex-wrap:wrap;gap:40px;margin-top:48px}
+.step{flex:1 1 260px;display:flex;flex-direction:column;gap:10px}
+.num{font-family:'Cormorant Garamond',serif;font-size:48px;color:var(--gold-light);line-height:1}
+.step h3{font-size:30px}
+.enquire{display:flex;flex-wrap:wrap;gap:64px}
+.enquire-text{flex:1 1 380px;display:flex;flex-direction:column;gap:20px}
+form{flex:1 1 420px;display:flex;flex-direction:column;gap:20px}
+.field{display:flex;flex-direction:column;gap:6px;flex:1 1 180px}
+.row{display:flex;flex-wrap:wrap;gap:20px}
+label{font-weight:500;font-size:16px}
+input,textarea{width:100%;padding:0 16px;border:1px solid #B9AE9C;border-radius:8px;background:#fff;font-family:inherit;font-size:18px;color:var(--green)}
+input{height:52px}
+textarea{padding:14px 16px}
+input:focus,textarea:focus,a:focus-visible,button:focus-visible{outline:3px solid var(--gold-light);outline-offset:2px}
+form .btn{align-self:flex-start;min-height:52px}
+footer{background:var(--sand)}
+.foot{max-width:1180px;margin:0 auto;padding:48px 24px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px;font-size:16px}
+.foot .brand span{font-size:26px}
+</style>
+</head>
+<body>
+
+<header>
+<div class="nav">
+<a class="brand" href="#top" aria-label="Calla &amp; Co. home">
+<svg viewBox="0 0 120 170" width="34" height="48" fill="none" stroke="#24382F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M64 166 C64 140 62 118 58 98"/>
+<path d="M58 98 C28 88 22 48 44 14 C58 40 84 50 90 74 C94 90 80 98 58 98 Z"/>
+<path d="M44 14 C50 50 64 72 80 86"/>
+<path d="M60 84 C58 66 64 52 70 44" stroke="#B08D57" stroke-width="6"/>
+<path d="M64 150 C84 140 98 120 100 100 C84 110 70 126 64 150 Z"/>
+</svg>
+<span>Calla &amp; Co.</span>
+</a>
+<nav aria-label="Main">
+<a href="#services">Services</a>
+<a href="#about">About us</a>
+<a href="#process">How it works</a>
+<a class="btn" href="#enquire">Enquire</a>
+</nav>
+</div>
+</header>
+
+<main id="top">
+
+<section class="wrap hero">
+<div class="hero-text">
+<div class="eyebrow">WEDDINGS &amp; CEREMONIES</div>
+<h1>Your wedding, planned with care and led with heart.</h1>
+<p>One small team to plan your day, write your ceremony and keep everything running smoothly, so you can enjoy every moment.</p>
+<div class="hero-actions">
+<a class="btn" href="#enquire">Book a free chat</a>
+<a class="btn ghost" href="#services">See our services</a>
+</div>
+</div>
+<div class="hero-art">
+<svg viewBox="0 0 120 170" width="220" height="312" fill="none" stroke="#24382F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Calla lily illustration">
+<path d="M64 166 C64 140 62 118 58 98"/>
+<path d="M58 98 C28 88 22 48 44 14 C58 40 84 50 90 74 C94 90 80 98 58 98 Z"/>
+<path d="M44 14 C50 50 64 72 80 86"/>
+<path d="M60 84 C58 66 64 52 70 44" stroke="#B08D57" stroke-width="3.6"/>
+<path d="M64 150 C84 140 98 120 100 100 C84 110 70 126 64 150 Z"/>
+</svg>
+</div>
+</section>
+
+<section id="services" class="band">
+<div class="wrap">
+<div class="intro">
+<h2>Choose the support you need</h2>
+<p>Every package can be tailored to your venue, your guest list and your budget.</p>
+</div>
+<div class="cards">
+<div class="card"><h3>Day-of coordination</h3><p>We take over in the final weeks, confirm every supplier, build your timeline and run the rehearsal and the day itself.</p><div class="price">From £[PRICE]</div></div>
+<div class="card"><h3>Partial planning</h3><p>Regular check-ins, supplier advice, budget and timeline support, and full coordination on the day.</p><div class="price">From £[PRICE]</div></div>
+<div class="card"><h3>Ceremony and coordination</h3><p>A personal ceremony written and led by our celebrant, with our team coordinating your day around it.</p><div class="price">From £[PRICE]</div></div>
+<div class="card"><h3>Full planning</h3><p>From finding your venue to the last dance, we plan, design and manage everything with you.</p><div class="price">From £[PRICE]</div></div>
+</div>
+</div>
+</section>
+
+<section id="about" class="wrap">
+<h2>Meet the team</h2>
+<div class="team">
+<div class="person">
+<div class="photo">[PHOTO]</div>
+<h3>[YOUR NAME]</h3>
+<div class="role">WEDDING PLANNER</div>
+<p>[Two or three sentences about your background, why you love weddings and what couples can expect from working with you.]</p>
+</div>
+<div class="person">
+<div class="photo">[PHOTO]</div>
+<h3>[PARTNER NAME]</h3>
+<div class="role">CELEBRANT &amp; MASTER OF CEREMONIES</div>
+<p>[Two or three sentences about your partner's celebrant training, hospitality career and the venues they know well.]</p>
+</div>
+</div>
+</section>
+
+<section id="process" class="dark">
+<div class="wrap">
+<h2>How it works</h2>
+<div class="steps">
+<div class="step"><div class="num">1</div><h3>A free chat</h3><p>Tell us about your plans, your date and your venue, and we'll suggest the best way to help.</p></div>
+<div class="step"><div class="num">2</div><h3>Your plan</h3><p>We agree a package, a timeline and a budget, then start on the details together.</p></div>
+<div class="step"><div class="num">3</div><h3>Your day</h3><p>We run the day from first guest to last dance while you enjoy being married.</p></div>
+</div>
+</div>
+</section>
+
+<section id="enquire" class="wrap enquire">
+<div class="enquire-text">
+<h2>Let's talk about your day</h2>
+<p>Send us a few details and we'll reply within [RESPONSE TIME] to arrange a free, no-obligation chat.</p>
+<div>
+<div>[EMAIL ADDRESS]</div>
+<div>[PHONE NUMBER]</div>
+</div>
+</div>
+<!-- Replace the action below with your form service address (for example a Formspree form) so enquiries reach your email. -->
+<form action="[FORM SERVICE URL]" method="POST">
+<div class="field"><label for="name">Your names</label><input id="name" name="name" type="text" required></div>
+<div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" required></div>
+<div class="row">
+<div class="field"><label for="date">Wedding date</label><input id="date" name="date" type="text"></div>
+<div class="field"><label for="venue">Venue (if booked)</label><input id="venue" name="venue" type="text"></div>
+</div>
+<div class="field"><label for="help">How can we help?</label><textarea id="help" name="message" rows="4"></textarea></div>
+<button class="btn" type="submit">Send enquiry</button>
+</form>
+</section>
+
+</main>
+
+<footer>
+<div class="foot">
+<a class="brand" href="#top" aria-label="Calla &amp; Co. home">
+<svg viewBox="0 0 120 170" width="30" height="42" fill="none" stroke="#24382F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M64 166 C64 140 62 118 58 98"/>
+<path d="M58 98 C28 88 22 48 44 14 C58 40 84 50 90 74 C94 90 80 98 58 98 Z"/>
+<path d="M44 14 C50 50 64 72 80 86"/>
+<path d="M60 84 C58 66 64 52 70 44" stroke="#B08D57" stroke-width="6"/>
+<path d="M64 150 C84 140 98 120 100 100 C84 110 70 126 64 150 Z"/>
+</svg>
+<span>Calla &amp; Co.</span>
+</a>
+<div>[INSTAGRAM HANDLE] · [EMAIL ADDRESS] · [PHONE NUMBER]</div>
+<div>© 2026 Calla &amp; Co. [REGISTERED BUSINESS DETAILS]</div>
+</div>
+</footer>
+
+</body>
+</html>
